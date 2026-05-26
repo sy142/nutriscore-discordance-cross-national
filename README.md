@@ -1,6 +1,6 @@
 # Nutritional quality scores overlook additive-driven ultra-processing globally
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.XXXXXXX.svg)](https://doi.org/10.5281/zenodo.XXXXXXX)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20379040.svg)](https://doi.org/10.5281/zenodo.20379040)
 
 > Arslan S, Yilmaz S, Gunal AM, Aydemir E. *Nature Food* (2026).
 
@@ -24,12 +24,12 @@ docs/               Supplementary tables (6 CSV files)
 
 ### Requirements
 
-**Python 3.11+**
+**Python 3.11.15**
 ```bash
 pip install pandas==2.3.2 numpy==2.2.6 scikit-learn==1.6.1 xgboost==3.0.4 lightgbm==4.6.0 optuna==4.8.0 shap==0.48.0 matplotlib seaborn
 ```
 
-**R 4.5+**
+**R 4.5.2**
 ```r
 install.packages(c("tidyverse","lme4","lmerTest","performance","ppcor","boot",
   "ggplot2","ggalluvial","ggnewscale","patchwork","cowplot","ggrepel",
