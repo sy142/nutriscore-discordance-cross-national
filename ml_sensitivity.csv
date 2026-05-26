@@ -1,0 +1,6 @@
+# Raw data
+
+This directory should contain the Open Food Facts database dump:
+- `en.openfoodfacts.org.products.csv.gz` (download from https://world.openfoodfacts.org/data)
+
+The file is ~3 GB compressed and is not included in this repository.

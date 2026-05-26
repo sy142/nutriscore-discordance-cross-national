@@ -1,0 +1,7 @@
+# External data
+
+Country-level indicators collected by `scripts/python/collect_external_data.py`:
+- World Bank World Development Indicators (https://data.worldbank.org/)
+- FAOSTAT Food Balance Sheets (https://www.fao.org/faostat/)
+
+Run the collection script to populate this directory.

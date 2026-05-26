@@ -1,0 +1,6 @@
+model,f1_macro,roc_auc,accuracy
+Logistic Regression,0.5675,0.8056,0.6721
+Random Forest,0.8341,0.9553,0.9447
+XGBoost (default),0.7826,0.9513,0.8946
+LightGBM (default),0.7545,0.9485,0.8718
+XGBoost (tuned),0.8581,0.9595,0.9496

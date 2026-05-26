@@ -1,0 +1,5 @@
+outcome,label,partial_r,p_value,n
+ncd_mortality_pct,NCD mortality (%),-0.22294519207893196,0.10857485924463492,56
+diabetes_pct,Diabetes (%),0.0481809485121438,0.7293631977326317,57
+life_expectancy,Life expectancy (yr),0.15895145170008768,0.2509538877085342,57
+overweight_adult_pct,Overweight (%),0.25329445343607776,0.06459692563628554,57
