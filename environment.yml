@@ -1,0 +1,21 @@
+name: nutriscore-discordance
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - pip
+  - numpy
+  - pandas
+  - scipy
+  - scikit-learn
+  - statsmodels
+  - matplotlib
+  - seaborn
+  - jupyter
+  - jupyterlab
+  - xgboost
+  - lightgbm
+  - shap
+  - optuna
+  
