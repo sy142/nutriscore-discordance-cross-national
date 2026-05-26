@@ -1,0 +1,46 @@
+column,type,unit,source,description
+barcode,string,NA,OFF,EAN/UPC product identifier
+product_name,string,NA,OFF,Product name
+brand,string,NA,OFF,Brand name
+category,string,NA,OFF,OFF category taxonomy (comma-separated)
+origin,string,NA,OFF,Raw material origin
+manufacturing_place,string,NA,OFF,Manufacturing location
+country,string,NA,OFF,Countries of sale (comma-separated)
+allergens,string,NA,OFF,Allergen declarations
+traces,string,NA,OFF,Trace substances
+additives_count,float,count,OFF,Number of additives (from additives_tags)
+nutriscore_score,float,score,OFF,NutriScore numeric score (lower=healthier)
+nutriscore,string,grade,OFF,NutriScore letter grade (a-e)
+nova_group,float,group,OFF,NOVA processing group (1-4)
+pnns_group_1,string,NA,OFF,French PNNS food group level 1
+pnns_group_2,string,NA,OFF,French PNNS food group level 2
+food_group,string,NA,OFF,Food group classification
+completeness,float,0-1,OFF,OFF data completeness (0-1)
+main_category,string,NA,OFF,Primary food category
+energy_kcal_100g,float,kcal/100g,OFF,Energy
+fat_100g,float,g/100g,OFF,Total fat
+saturated_fat_100g,float,g/100g,OFF,Saturated fat
+carbs_100g,float,g/100g,OFF,Carbohydrates
+sugar_100g,float,g/100g,OFF,Sugars
+fiber_100g,float,g/100g,OFF,Dietary fiber
+protein_100g,float,g/100g,OFF,Protein
+salt_100g,float,g/100g,OFF,Salt
+sodium_100g,float,g/100g,OFF,Sodium
+ingredients_count,float,count,OFF,Number of ingredients
+primary_country,string,NA,OFF derived,First listed country of sale
+country_code,string,ISO3,OFF derived,ISO 3166-1 alpha-3 code
+country_raw,string,NA,OFF derived,Original country name from OFF
+kcal_per_capita_day,float,kcal/cap/day,FAOSTAT,Daily calorie supply per capita
+protein_g_per_capita_day,float,g/cap/day,FAOSTAT,Daily protein supply per capita
+fat_g_per_capita_day,float,g/cap/day,FAOSTAT,Daily fat supply per capita
+ncd_mortality_pct,float,%,World Bank,NCD mortality probability 30-70
+diabetes_pct,float,%,World Bank,Diabetes prevalence 20-79
+life_expectancy,float,years,World Bank,Life expectancy at birth
+overweight_adult_pct,float,%,World Bank,Overweight adults BMI>=25
+gdp_per_capita_ppp,float,intl $,World Bank,GDP per capita PPP
+population,float,count,World Bank,Total population
+smoking_pct,float,%,World Bank,Smoking prevalence 15+
+alcohol_per_capita,float,litres,World Bank,Alcohol consumption per capita 15+
+health_exp_usd_pc,float,USD,World Bank,Health expenditure per capita USD
+health_exp_ppp_pc,float,intl $,World Bank,Health expenditure per capita PPP
+health_exp_pct_gdp,float,%,World Bank,Health expenditure as % of GDP

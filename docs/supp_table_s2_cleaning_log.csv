@@ -1,0 +1,8 @@
+step,description,rows_after,note
+1,Raw OFF database dump loaded,"4,500,000",en.openfoodfacts.org.products.csv.gz
+2,Retained products with valid NutriScore (a-e),"944,316","nutriscore in (a,b,c,d,e)"
+3,"Physical limits: energy<=900, salt<=100, nutrients>=0","~940,000",Outlier removal
+4,"Consistency: sugar<=carbs, sat_fat<=fat, macro_sum<=105","~938,000",Logical consistency
+5,Energy validation: Atwater ratio 0.2-3.0,"~936,000",Atwater equation cross-check
+6,Minimum 5/6 core nutrients present,"~935,000","fat, carbs, sugar, protein, salt, energy"
+7,Final cleaned dataset,"944,316",nutriscore_full_v2.csv
