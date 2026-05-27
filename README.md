@@ -78,8 +78,7 @@ See `docs/supp_table_s8_software.csv` for full version list.
 @article{arslan2026nutriscore,
   title={Nutritional quality scores overlook additive-driven
          ultra-processing globally},
-  author={Arslan, Sedat and Yilmaz, Salim and Gunal, Ahmet Murat
-          and Aydemir, Ecenur},
+  author={Arslan, Sedat and Yilmaz, Salim and Gunal and Gunal, Ahmet Murat},
   journal={Nature Food},
   year={2026},
   doi={10.1038/s43016-026-XXXXX-X}
