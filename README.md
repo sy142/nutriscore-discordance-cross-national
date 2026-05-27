@@ -4,7 +4,7 @@
 Data set:
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20379040.svg)](https://doi.org/10.5281/zenodo.20379040)
 
-> Arslan S, Yilmaz S, Aydemir E, Gunal AM. *Nature Food* (2026).
+> Arslan S, Yilmaz S, Gunal AM. *Nature Food* (2026).
 
 ## Overview
 
